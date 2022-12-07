@@ -1,0 +1,20 @@
+server:
+  port: 12010
+spring:
+  application:
+    name: food-service
+  datasource:
+    driverClassName: org.mariadb.jdbc.Driver
+    url: ENC(EtRehPzfpasb+1JtHEHjxvLPC25nQmkDktVtiNiW/FiRRW+Mi5RNkGZufWKKX7A26kQySgujCuq5E6oqeJnDJijr3ypmxZbt1rMFmCminMztErtPNYJV/QOCOTZUTSG9)
+    username: ENC(ibAzlLFZ16lQKqWIJ+wLkw==)
+    password: ENC(C0DEqwdAkOiFxy4Cu/mnBleTBSN2UYcl)
+  jpa:
+    show-sql: false
+logging:
+  level:
+    root: info
+global:
+  xClientKey: ${x_client_key}
+
+jasypt:
+  key: ${jasypt_key}
